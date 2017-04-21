@@ -38,8 +38,8 @@ var getLinks = function (url) {
 			openConnections -= 1;
 			scrapeLinks (body);
 			while (openConnections <5 && ++toScrape < urls.length) {
-				openConnections +=1;
 				if (/https?:\/\/medium.com.*/.test (urls[toScrape])) {
+					openConnections +=1;
 					getLinks (urls[toScrape]);
 				}
 				else {
