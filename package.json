@@ -1,0 +1,27 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "A tiny NodeJS scraper",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PranayShah/scraper.git"
+  },
+  "keywords": [
+    "scrape"
+  ],
+  "author": "Pranay Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PranayShah/scraper/issues"
+  },
+  "homepage": "https://github.com/PranayShah/scraper#readme"
+}
